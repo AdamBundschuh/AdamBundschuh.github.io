@@ -1,0 +1,120 @@
+body {
+  font-family: "Lato", sans-serif;
+  background-color: cornflowerblue;
+  margin: 0px;
+}
+
+p {
+    margin-left: 40px;
+}
+
+.side-bar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.side-bar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.side-bar a:hover {
+  color: #f1f1f1;
+  margin-left: 5px;
+}
+
+.main-content {
+  margin-left: 190px;
+  font-size: 18px;
+  padding: 0px;
+}
+
+section {
+  padding-bottom: 30px;
+}
+
+.section-header {
+    background-color: white;
+}
+
+h3 {
+    font-weight: 200;
+    margin-bottom: 60px;
+    margin-top: 0;
+    padding: 30px 40px;
+    text-transform: uppercase;
+}
+
+h3.name {
+    color:dodgerblue;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h3.tagline {
+    color: white;
+    font-size: 12px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.img-bkgd {
+   
+    background: url(/images/header-bkgd.jpg) repeat;
+    position: relative;
+    background-size: cover;
+
+    /* background-clip: border-box; */
+}
+
+.window-height {
+    height: 100vh;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.555);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header-text {
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 25px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 200;
+    left: 0;
+    position: absolute;
+    top: 0;
+    line-height: 1.5;
+}
+
+.text-bkgd {
+    background-color: dodgerblue;
+    padding: 6px 15px 10px 15px;
+    /* border: 2px solid darkred; */
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.397);
+
+}
+
+blockquote {
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+}
