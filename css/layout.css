@@ -42,6 +42,14 @@ p {
   margin-left: 5px;
 }
 
+.profile-picture {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* .profile-picture img {
+  display: flex;
+} */
+
 .contact-icons {
   display: flex;
   width: 68%;
