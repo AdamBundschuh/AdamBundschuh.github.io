@@ -13,6 +13,8 @@ p {
 }
 
 .side-bar {
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 200px;
   position: fixed;
@@ -38,6 +40,28 @@ p {
 .side-bar a:hover {
   color: #f1f1f1;
   margin-left: 5px;
+}
+
+.contact-icons {
+  display: flex;
+  width: 68%;
+  justify-content: space-between;
+  margin: 10px 0px 25px 20px;
+}
+
+.contact-icons a {
+padding: 0px;
+}
+
+.contact-icons a:hover {
+  margin-left: 0px;
+  margin-top: -5px;
+  padding: 0px;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
 }
 
 .main-content {
@@ -88,6 +112,9 @@ h3.tagline {
   font-size: 12px;
   padding-left: 20px;
   padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  margin-bottom: 0px;
 }
 
 .img-bkgd {
