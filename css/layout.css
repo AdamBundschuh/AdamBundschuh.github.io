@@ -215,6 +215,42 @@ blockquote {
   min-width: 200px;
 }
 
+.project-image-mr {
+  display: flex;
+  background-color: white;
+
+  background: url(/images/mr-project.jpg);
+  background-size: cover;
+  color: black;
+  height: auto;
+  width: 30%;
+  min-width: 200px;
+}
+
+.project-image-am {
+  display: flex;
+  background-color: white;
+
+  background: url(/images/am-project.jpg);
+  background-size: cover;
+  color: black;
+  height: auto;
+  width: 30%;
+  min-width: 200px;
+}
+
+.project-image-ar {
+  display: flex;
+  background-color: white;
+
+  background: url(/images/ar-project.jpg);
+  background-size: cover;
+  color: black;
+  height: auto;
+  width: 30%;
+  min-width: 200px;
+}
+
 .project-text {
   display: flex;
   background-color: rgb(31, 31, 31);
