@@ -203,6 +203,18 @@ blockquote {
   min-width: 200px;
 }
 
+.project-image-vp {
+  display: flex;
+  background-color: white;
+
+  background: url(/images/vp-project.jpg);
+  background-size: cover;
+  color: black;
+  height: auto;
+  width: 30%;
+  min-width: 200px;
+}
+
 .project-text {
   display: flex;
   background-color: rgb(31, 31, 31);
